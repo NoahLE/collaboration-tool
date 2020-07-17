@@ -1,56 +1,58 @@
-{% extends "base.html" %} 
+{% extends "base.html" %}
 
-{% block title %}Login{% endblock %} 
+{% load static %}
+
+{% block title %}Login{% endblock %}
 
 {% block content %}
-<div class="container">
-  <div class="row">
-    <div class="col">
-      <div class="card shadow">
-        <div class="card-body">
-          <form class="form-signin">
-            <img
-              class="mb-4"
-              src="/docs/4.5/assets/brand/bootstrap-solid.svg"
-              alt=""
-              width="72"
-              height="72"
-            />
+<div class="row justify-content-center align-middle">
+  <div class="col col-5">
+    <div class="card shadow">
+      <div class="row">
+        <img
+          class="mb-4 mx-auto mt-4"
+          src="{% static 'img/logo.png' %}"
+          alt=""
+          width="72"
+          height="72"
+        />
+      </div>
 
-            <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+      <div class="card-body">
+        <form class="form-signin">
+          <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
 
-            <label for="inputEmail" class="sr-only">Email address</label>
-            <input
-              type="email"
-              id="inputEmail"
-              class="form-control"
-              placeholder="Email address"
-              required
-              autofocus
-            />
+          <label for="inputEmail" class="sr-only">Email address</label>
+          <input
+            type="email"
+            id="inputEmail"
+            class="form-control mb-4"
+            placeholder="Email address"
+            required
+            autofocus
+          />
 
-            <label for="inputPassword" class="sr-only">Password</label>
-            <input
-              type="password"
-              id="inputPassword"
-              class="form-control"
-              placeholder="Password"
-              required
-            />
+          <label for="inputPassword" class="sr-only">Password</label>
+          <input
+            type="password"
+            id="inputPassword"
+            class="form-control mb-4"
+            placeholder="Password"
+            required
+          />
 
-            <div class="checkbox mb-3">
-              <label>
-                <input type="checkbox" value="remember-me" /> Remember me
-              </label>
-            </div>
+          <div class="checkbox mb-3">
+            <label>
+              <input type="checkbox" value="remember-me"/> Remember me
+            </label>
+          </div>
 
-            <button class="btn btn-lg btn-primary btn-block" type="submit">
-              Sign in
-            </button>
+          <button class="btn btn-lg btn-primary btn-block" type="submit">
+            Sign in
+          </button>
 
-            <p class="mt-5 mb-3 text-muted">&copy; 2020</p>
-          </form>
-        </div>
+          <p class="mt-5 mb-3 text-center text-muted">&copy; 2020</p>
+        </form>
       </div>
     </div>
   </div>
