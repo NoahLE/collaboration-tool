@@ -2,3 +2,8 @@
   background: #457b9d;
   height: 100%;
 }
+
+body {
+    min-height: 75rem;
+    padding-top: 4.5rem;
+}
