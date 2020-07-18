@@ -22,31 +22,45 @@
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="#">Kanban</a>
+        <a class="nav-link" href="{% url 'alerts' %}">Kanban</a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="#">Chat</a>
+        <a class="nav-link" href="{% url 'alerts' %}">Chat</a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="#">Wiki</a>
+        <a class="nav-link" href="{% url 'alerts' %}">Wiki</a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="#">Calendar</a>
+        <a class="nav-link" href="{% url 'alerts' %}">Calendar</a>
       </li>
 
       <li class="nav-item d-md-none">
-        <a class="nav-link" href="#">Account</a>
+        <a class="nav-link" href="{% url 'alerts' %}">
+          Alerts
+          <span class="badge badge-pill badge-primary">4</span>
+        </a>
       </li>
 
       <li class="nav-item d-md-none">
-        <a class="nav-link" href="#">Log Out</a>
+        <a class="nav-link" href="{% url 'alerts' %}">Account</a>
+      </li>
+
+      <li class="nav-item d-md-none">
+        <a class="nav-link" href="{% url 'login' %}">Log Out</a>
       </li>
     </ul>
 
     <div class="d-none d-md-block">
+      <a class="color-black"
+         href="{% url 'alerts' %}"
+      >
+        <i class="fas fa-2x fa-bell"></i>
+        <span class="badge badge-pill badge-primary align-top mr-1">4</span>
+      </a>
+
       <a class="color-black"
          href="{% url 'login' %}"
       >

@@ -1,0 +1,84 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block title %}Alerts{% endblock %}
+
+{% block content %}
+
+{% if show_navbar %}
+{% include "gui/navbar.html" %}
+{% endif %}
+
+<main role="main" class="container mt-5">
+  <div class="row justify-content-between mb-3 text-center">
+    <div class="col-auto mx-auto">
+      <div class="card index-cards shadow">
+        <div class="card-body">
+          <h1 class="card-title">
+            Alerts
+          </h1>
+
+          <p class="card-text">
+          <div class="dropdown mb-3">
+            <button class="btn btn-secondary dropdown-toggle"
+                    type="button"
+                    id="dropdownMenuButton"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+            >
+              Filter by:
+            </button>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Kanban (2)</a>
+              <a class="dropdown-item" href="#">Chat (0)</a>
+              <a class="dropdown-item" href="#">Wiki (3)</a>
+              <a class="dropdown-item" href="#">Calendar (0)</a>
+            </div>
+          </div>
+
+          <table class="table text-left">
+            <thead>
+            <tr>
+              <th scope="col">Application</th>
+              <th scope="col">Notification</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr>
+              <td>Wiki</td>
+              <td>Updated filler article</td>
+            </tr>
+
+            <tr>
+              <td>Wiki</td>
+              <td>Updated filler article</td>
+            </tr>
+
+            <tr>
+              <td>Kanban</td>
+              <td>Added issue</td>
+            </tr>
+
+
+            <tr>
+              <td>Wiki</td>
+              <td>Updated filler article</td>
+            </tr>
+
+            <tr>
+              <td>Kanban</td>
+              <td>Closed issue</td>
+            </tr>
+            </tbody>
+          </table>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+{% endblock %}
