@@ -3,9 +3,17 @@
   height: 100%;
 }
 
+.background-white {
+    background: white;
+}
+
 body {
     min-height: 75rem;
     padding-top: 4.5rem;
+}
+
+.color-black {
+    color: black;
 }
 
 .index-cards {
