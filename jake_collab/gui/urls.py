@@ -4,8 +4,8 @@ from . import views
 
 # URL prefix is /gui/
 urlpatterns = [
-    path('login/', views.login),
-    path('index/', views.index),
+    path('login/', views.login, name='login'),
+    path('index/', views.index, name='index'),
     path('', views.login),
     # path('gui/wiki', views.wiki),
     # path('gui/article', views.article),
