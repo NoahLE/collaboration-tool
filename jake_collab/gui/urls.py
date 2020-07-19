@@ -7,6 +7,7 @@ urlpatterns = [
     path('login/', views.login, name='login'),
     path('index/', views.index, name='index'),
     path('alerts/', views.alerts, name='alerts'),
+    path('wiki-main/', views.wiki_main, name='wiki-main'),
     path('', views.login),
     # path('gui/wiki', views.wiki),
     # path('gui/article', views.article),

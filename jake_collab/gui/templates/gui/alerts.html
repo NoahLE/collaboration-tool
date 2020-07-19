@@ -13,6 +13,7 @@
 <main role="main" class="container mt-5">
   <div class="row justify-content-between mb-3 text-center">
     <div class="col-auto mx-auto">
+      <!-- This card can be turned into a floating element to show notifications in-page -->
       <div class="card index-cards shadow">
         <div class="card-body">
           <h1 class="card-title">
@@ -32,10 +33,41 @@
             </button>
 
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#">Kanban (2)</a>
-              <a class="dropdown-item" href="#">Chat (0)</a>
-              <a class="dropdown-item" href="#">Wiki (3)</a>
-              <a class="dropdown-item" href="#">Calendar (0)</a>
+              <a class="dropdown-item ml-3" href="#">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                >
+                Kanban (2)
+              </a>
+
+              <a class="dropdown-item ml-3" href="#">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                >
+                Chat (0)
+              </a>
+
+              <a class="dropdown-item ml-3" href="#">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                >
+                Wiki (3)
+              </a>
+
+              <a class="dropdown-item ml-3" href="#">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                >
+                Calendar (0)
+              </a>
             </div>
           </div>
 
@@ -44,6 +76,7 @@
             <tr>
               <th scope="col">Application</th>
               <th scope="col">Notification</th>
+              <th scope="col"></th>
             </tr>
             </thead>
 
@@ -51,27 +84,62 @@
             <tr>
               <td>Wiki</td>
               <td>Updated filler article</td>
+              <td>
+                <button
+                  type="button"
+                  class="btn btn-sm btn-outline-primary">
+                  Clear
+                </button>
+              </td>
             </tr>
 
             <tr>
               <td>Wiki</td>
               <td>Updated filler article</td>
+              <td>
+                <button
+                  type="button"
+                  class="btn btn-sm btn-outline-primary">
+                  Clear
+                </button>
+              </td>
             </tr>
 
             <tr>
               <td>Kanban</td>
               <td>Added issue</td>
+              <td>
+                <button
+                  type="button"
+                  class="btn btn-sm btn-outline-primary">
+                  Clear
+                </button>
+              </td>
             </tr>
 
 
             <tr>
               <td>Wiki</td>
               <td>Updated filler article</td>
+              <td>
+                <button
+                  type="button"
+                  class="btn btn-sm btn-outline-primary">
+                  Clear
+                </button>
+              </td>
             </tr>
 
             <tr>
               <td>Kanban</td>
               <td>Closed issue</td>
+              <td>
+                <button
+                  type="button"
+                  class="btn btn-sm btn-outline-primary">
+                  Clear
+                </button>
+              </td>
             </tr>
             </tbody>
           </table>

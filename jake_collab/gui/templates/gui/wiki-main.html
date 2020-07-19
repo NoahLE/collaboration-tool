@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block title %}Home Page{% endblock %}
+
+{% block content %}
+
+{% if show_navbar %}
+{% include "gui/navbar.html" %}
+{% endif %}
+
+<main role="main" class="container mt-5">
+  <div class="card">
+    <div class="card-body">
+      <div class="row justify-content-center">
+        <h1>Start Page</h1>
+
+        <p class="align-bottom ml-3">
+          <i class="fas fa-lock"></i>
+          Locked
+        </p>
+      </div>
+
+      <div class="row justify-content-between mb-3 text-center">
+        <div class="col-auto mb-3 mx-auto">
+          <div class="card index-cards shadow">
+            <div class="card-body">
+              <h5 class="card-title">
+                <i class="fas fa-2x fa-chart-line"></i>
+              </h5>
+
+              <a href="#" class="btn btn-primary shadow">Kanban Board</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-auto mb-3 mx-auto">
+          <div class="card index-cards shadow">
+            <div class="card-body">
+              <h5 class="card-title">
+                <i class="fas fa-2x fa-comments"></i>
+              </h5>
+
+              <a href="#" class="btn btn-primary shadow">Chat</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-auto mb-3 mx-auto">
+          <div class="card index-cards shadow">
+            <div class="card-body">
+              <h5 class="card-title">
+                <i class="far fa-2x fa-newspaper"></i>
+              </h5>
+
+              <a href="#" class="btn btn-primary shadow">Wiki</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-auto mb-3 mx-auto">
+          <div class="card index-cards shadow">
+            <div class="card-body">
+              <h5 class="card-title">
+                <i class="fas fa-2x fa-calendar-alt"></i>
+              </h5>
+
+              <a href="#" class="btn btn-primary shadow">Calendar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+{% endblock %}

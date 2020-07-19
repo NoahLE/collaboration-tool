@@ -20,3 +20,10 @@ def alerts(request):
         'show_navbar': True
     }
     return render(request, 'gui/alerts.html', context)
+
+
+def wiki_main(request):
+    context = {
+        'show_navbar': True
+    }
+    return render(request, 'gui/wiki-main.html', context)
