@@ -13,65 +13,34 @@
 <main role="main" class="container mt-5">
   <div class="card">
     <div class="card-body">
-      <div class="row justify-content-center">
-        <h1>Start Page</h1>
+      <div class="row">
+        <div class="col">
+          <h1>Start Page</h1>
+        </div>
 
-        <p class="align-bottom ml-3">
-          <i class="fas fa-lock"></i>
-          Locked
+        <div class="col">
+          <button type="button" class="btn btn-sm btn-primary">View Source</button>
+          <button type="button" class="btn btn-sm btn-outline-primary">Changes</button>
+          <button type="button" class="btn btn-sm btn-outline-primary">Attachments</button>
+        </div>
+      </div>
+
+      <div class="ml-3">
+      <div class="row mb-3 text-center">
+        <p>
+          <b>Welcome to the wiki</b>
         </p>
       </div>
 
-      <div class="row justify-content-between mb-3 text-center">
-        <div class="col-auto mb-3 mx-auto">
-          <div class="card index-cards shadow">
-            <div class="card-body">
-              <h5 class="card-title">
-                <i class="fas fa-2x fa-chart-line"></i>
-              </h5>
+      <div class="row">
+        <p>This is a test wiki</p>
+      </div>
 
-              <a href="#" class="btn btn-primary shadow">Kanban Board</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-auto mb-3 mx-auto">
-          <div class="card index-cards shadow">
-            <div class="card-body">
-              <h5 class="card-title">
-                <i class="fas fa-2x fa-comments"></i>
-              </h5>
-
-              <a href="#" class="btn btn-primary shadow">Chat</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-auto mb-3 mx-auto">
-          <div class="card index-cards shadow">
-            <div class="card-body">
-              <h5 class="card-title">
-                <i class="far fa-2x fa-newspaper"></i>
-              </h5>
-
-              <a href="#" class="btn btn-primary shadow">Wiki</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-auto mb-3 mx-auto">
-          <div class="card index-cards shadow">
-            <div class="card-body">
-              <h5 class="card-title">
-                <i class="fas fa-2x fa-calendar-alt"></i>
-              </h5>
-
-              <a href="#" class="btn btn-primary shadow">Calendar</a>
-            </div>
-          </div>
-        </div>
+      <div class="row">
+        <h3>Some title here</h3>
       </div>
     </div>
+      </div>
   </div>
 </main>
 {% endblock %}
