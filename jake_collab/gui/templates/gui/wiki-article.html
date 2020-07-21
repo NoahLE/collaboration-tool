@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block title %}Home Page{% endblock %}
+
+{% block content %}
+
+{% if show_navbar %}
+{% include "gui/navbar.html" %}
+{% endif %}
+
+<main role="main" class="container mt-5">
+  <div class="card">
+    <div class="card-body">
+      <div class="row">
+        <div class="col">
+          <h1>Article Sample</h1>
+        </div>
+
+        <div class="col text-right">
+          <button type="button" class="btn btn-sm btn-primary">Edit this page</button>
+          <button type="button" class="btn btn-sm btn-outline-primary">Changes</button>
+          <button type="button" class="btn btn-sm btn-outline-primary">View Page Source</button>
+          <button type="button" class="btn btn-sm btn-outline-primary">Attachments</button>
+        </div>
+      </div>
+
+      <div class="ml-3">
+        <div class="row mb-3 text-center">
+          <p>
+            <b>Some subheading</b>
+          </p>
+        </div>
+
+        <div class="row">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis dolor doloribus hic maiores minus
+            mollitia omnis quas quos recusandae velit. Dicta enim iste laboriosam nam ratione rem similique voluptas
+            voluptates!
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+{% endblock %}

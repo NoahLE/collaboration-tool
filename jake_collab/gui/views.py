@@ -27,3 +27,10 @@ def wiki_main(request):
         'show_navbar': True
     }
     return render(request, 'gui/wiki-main.html', context)
+
+
+def wiki_article(request):
+    context = {
+        'show_navbar': True
+    }
+    return render(request, 'gui/wiki-article.html', context)

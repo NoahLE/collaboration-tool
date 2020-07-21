@@ -8,6 +8,7 @@ urlpatterns = [
     path('index/', views.index, name='index'),
     path('alerts/', views.alerts, name='alerts'),
     path('wiki-main/', views.wiki_main, name='wiki-main'),
+    path('wiki-article/', views.wiki_article, name='wiki-article'),
     path('', views.login),
     # path('gui/wiki', views.wiki),
     # path('gui/article', views.article),
