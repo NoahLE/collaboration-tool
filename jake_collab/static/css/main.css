@@ -12,6 +12,10 @@ body {
     padding-top: 4.5rem;
 }
 
+.bread-crumbs-margin {
+    margin-left: 0px;
+}
+
 .color-black {
     color: black;
 }
