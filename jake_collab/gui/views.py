@@ -35,8 +35,16 @@ def wiki_article(request):
     }
     return render(request, 'gui/wiki-article.html', context)
 
+
 def kanban(request):
     context = {
         'show_navbar': True
     }
     return render(request, 'gui/kanban.html', context)
+
+
+def profile_public(request):
+    context = {
+        'show_navbar': True
+    }
+    return render(request, 'gui/profile-public.html', context)

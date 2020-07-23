@@ -16,4 +16,5 @@ A project mockup
 | Index | /gui/index | The landing page after logging in |
 | Alerts | /gui/alerts | Shows the pending notifications |
 | Wiki Main | /gui/wiki-main | The main wiki landing page |
-| Kanab | /gui/kanban | A sample kanban page |
+| Kanban | /gui/kanban | A sample kanban page |
+| Profile - Public | /gui/profile/public | Public profile page |

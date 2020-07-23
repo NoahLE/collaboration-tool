@@ -10,6 +10,7 @@ urlpatterns = [
     path('wiki-main/', views.wiki_main, name='wiki-main'),
     path('wiki-article/', views.wiki_article, name='wiki-article'),
     path('kanban/', views.kanban, name='kanban'),
+    path('profile/public/', views.profile_public, name='profile-public'),
     path('', views.login),
     # path('gui/wiki', views.wiki),
     # path('gui/article', views.article),
