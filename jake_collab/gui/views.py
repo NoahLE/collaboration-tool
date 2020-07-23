@@ -34,3 +34,9 @@ def wiki_article(request):
         'show_navbar': True
     }
     return render(request, 'gui/wiki-article.html', context)
+
+def kanban(request):
+    context = {
+        'show_navbar': True
+    }
+    return render(request, 'gui/kanban.html', context)
