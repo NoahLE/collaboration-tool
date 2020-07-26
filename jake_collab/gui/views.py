@@ -48,3 +48,9 @@ def profile_public(request):
         'show_navbar': True
     }
     return render(request, 'gui/profile-public.html', context)
+
+def profile_private(request):
+    context = {
+        'show_navbar': True
+    }
+    return render(request, 'gui/profile-private.html', context)

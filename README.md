@@ -18,3 +18,4 @@ A project mockup
 | Wiki Main | /gui/wiki-main | The main wiki landing page |
 | Kanban | /gui/kanban | A sample kanban page |
 | Profile - Public | /gui/profile/public | Public profile page |
+| Profile - Private | /gui/profile/private | Private profile page |
