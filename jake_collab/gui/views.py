@@ -40,7 +40,7 @@ def kanban(request):
     context = {
         'show_navbar': True
     }
-    return render(request, 'gui/kanban.html', context)
+    return render(request, 'gui/kanban-edit.html', context)
 
 
 def profile_public(request):
@@ -49,8 +49,37 @@ def profile_public(request):
     }
     return render(request, 'gui/profile-public.html', context)
 
+
 def profile_private(request):
     context = {
         'show_navbar': True
     }
     return render(request, 'gui/profile-private.html', context)
+
+
+def kanban_view(request):
+    context = {
+        'show_navbar': True
+    }
+    return render(request, 'gui/kanban-edit.html', context)
+
+
+def kanban_edit(request):
+    context = {
+        'show_navbar': True
+    }
+    return render(request, 'gui/kanban-edit.html', context)
+
+
+def kanban_submitted(request):
+    context = {
+        'show_navbar': True
+    }
+    return render(request, 'gui/kanban-submitted.html', context)
+
+
+def kanban(request):
+    context = {
+        'show_navbar': True
+    }
+    return render(request, 'gui/kanban.html', context)

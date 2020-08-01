@@ -19,3 +19,6 @@ A project mockup
 | Kanban | /gui/kanban | A sample kanban page |
 | Profile - Public | /gui/profile/public | Public profile page |
 | Profile - Private | /gui/profile/private | Private profile page |
+| Kanban - Home | /gui/kanban | Landing page |
+| Kanban - Item selected | /gui/kanban/selected | Item selected |
+| Kanban - Editing item | /gui/kanban/edit | Editing item |
