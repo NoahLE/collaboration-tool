@@ -36,13 +36,6 @@ def wiki_article(request):
     return render(request, 'gui/wiki-article.html', context)
 
 
-def kanban(request):
-    context = {
-        'show_navbar': True
-    }
-    return render(request, 'gui/kanban-edit.html', context)
-
-
 def profile_public(request):
     context = {
         'show_navbar': True
@@ -57,11 +50,18 @@ def profile_private(request):
     return render(request, 'gui/profile-private.html', context)
 
 
-def kanban_view(request):
+def kanban(request):
     context = {
         'show_navbar': True
     }
-    return render(request, 'gui/kanban-edit.html', context)
+    return render(request, 'gui/kanban.html', context)
+
+
+def kanban_selected(request):
+    context = {
+        'show_navbar': True
+    }
+    return render(request, 'gui/kanban-selected.html', context)
 
 
 def kanban_edit(request):
@@ -69,17 +69,3 @@ def kanban_edit(request):
         'show_navbar': True
     }
     return render(request, 'gui/kanban-edit.html', context)
-
-
-def kanban_submitted(request):
-    context = {
-        'show_navbar': True
-    }
-    return render(request, 'gui/kanban-submitted.html', context)
-
-
-def kanban(request):
-    context = {
-        'show_navbar': True
-    }
-    return render(request, 'gui/kanban.html', context)

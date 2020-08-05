@@ -1,6 +1,8 @@
 # Project Collaboration Mockup
 
-A project mockup
+- [Project Collaboration Mockup](#project-collaboration-mockup)
+  - [Installation](#installation)
+  - [Pages](#pages)
 
 ## Installation
 
@@ -10,15 +12,17 @@ A project mockup
 
 ## Pages
 
-| Page | URL | Description |
-| --- | --- | --- |
-| Login | /gui/ | The default landing and login page |
-| Index | /gui/index | The landing page after logging in |
-| Alerts | /gui/alerts | Shows the pending notifications |
-| Wiki Main | /gui/wiki-main | The main wiki landing page |
-| Kanban | /gui/kanban | A sample kanban page |
-| Profile - Public | /gui/profile/public | Public profile page |
-| Profile - Private | /gui/profile/private | Private profile page |
-| Kanban - Home | /gui/kanban | Landing page |
-| Kanban - Item selected | /gui/kanban/selected | Item selected |
-| Kanban - Editing item | /gui/kanban/edit | Editing item |
+| Page                   | URL                  | Balsamiq Name                                | Description                        |
+| ---------------------- | -------------------- | -------------------------------------------- | ---------------------------------- |
+| Login                  | /gui/                | Login screen                                 | The default landing and login page |
+| Index                  | /gui/index           | Main app screen                              | The landing page after logging in  |
+| Alerts                 | /gui/alerts          | Alert switcher                               | Shows the pending notifications    |
+| Wiki Main              | /gui/wiki-main       | Different wikis                              | The main wiki landing page         |
+| Kanban                 | /gui/kanban          | Kanban-UI                                    | Landing page                       |
+| Kanban - Item selected | /gui/kanban/selected | Kanban-card-selected / Kanban-task-submitted | Item selected                      |
+| Kanban - Editing item  | /gui/kanban/edit     | Kanban-card-selected / Kanban-task-submitted | Editing item                       |
+| Profile - Public       | /gui/profile/public  | Profile - public                             | Public profile page                |
+| Profile - Private      | /gui/profile/private | Profile - private                            | Private profile page               |
+| Chat - 1-on-1          | /gui/chat            | Chat-open-1-on-1                             | Private individual chats           |
+| Chat - Group           | /gui/chat/group      | Chat-open-rooms                              | Group chat rooms                   |
+| Event calendar         | /gui/calendar        | Event calendar                               | Calendar                           |
