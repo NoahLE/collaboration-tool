@@ -1,3 +1,14 @@
+/* HTML */
+body {
+    min-height: 75rem;
+    padding-top: 4.5rem;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+/* Classes */
 .background {
   background: #457b9d;
   height: 100%;
@@ -5,11 +16,6 @@
 
 .background-white {
     background: white;
-}
-
-body {
-    min-height: 75rem;
-    padding-top: 4.5rem;
 }
 
 .bread-crumbs-margin {
