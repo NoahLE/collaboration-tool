@@ -82,4 +82,4 @@ def chat_multiple(request):
     context = {
         'show_navbar': True
     }
-    return render(request, 'gui/chat-single.html', context)
+    return render(request, 'gui/chat-multiple.html', context)

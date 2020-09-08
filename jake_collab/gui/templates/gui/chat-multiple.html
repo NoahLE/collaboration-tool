@@ -1,0 +1,248 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block title %}Home Page{% endblock %}
+
+{% block content %}
+
+{% if show_navbar %}
+{% include "gui/navbar.html" %}
+{% endif %}
+
+<main role="main" class="container mt-5">
+  <div class="card">
+    <div class="card-body">
+
+      <div class="row">
+        <div class="col-4">
+          <h5 class="text-center">Username</h5>
+
+          <i class="fas fa-2x fa-address-book pr-1"></i>
+
+          <div class="card my-3 shadow">
+            <div class="card-header">
+              <h4>Chat Rooms</h4>
+            </div>
+
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <img
+                  class="mx-auto"
+                  src="{% static 'img/placeholder.png' %}"
+                  alt=""
+                  width="25"
+                  height="25"
+                />
+                Chat #1
+              </li>
+
+              <li class="list-group-item">
+                <img
+                  class="mx-auto"
+                  src="{% static 'img/placeholder.png' %}"
+                  alt=""
+                  width="25"
+                  height="25"
+                />
+                Chat #2
+              </li>
+
+              <li class="list-group-item">
+                <img
+                  class="mx-auto"
+                  src="{% static 'img/placeholder.png' %}"
+                  alt=""
+                  width="25"
+                  height="25"
+                />
+                Chat #3
+              </li>
+            </ul>
+          </div>
+
+          <div class="card my-3 shadow">
+            <div class="card-header">
+              <h4>Recent Chats</h4>
+            </div>
+
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <img
+                  class="mx-auto"
+                  src="{% static 'img/placeholder.png' %}"
+                  alt=""
+                  width="25"
+                  height="25"
+                />
+                Jane Doe
+                <p class="font-italic chat-preview">
+                  Hello, this is...
+                </p>
+              </li>
+
+              <li class="list-group-item">
+                <img
+                  class="mx-auto"
+                  src="{% static 'img/placeholder.png' %}"
+                  alt=""
+                  width="25"
+                  height="25"
+                />
+                John Doe
+                <p class="font-italic chat-preview">
+                  Hello, this is...
+                </p>
+              </li>
+
+              <li class="list-group-item">
+                <img
+                  class="mx-auto"
+                  src="{% static 'img/placeholder.png' %}"
+                  alt=""
+                  width="25"
+                  height="25"
+                />
+                Deers Doe
+                <p class="font-italic chat-preview">
+                  Hello, this is...
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="row align-items-center">
+            <div class="col-8">
+              <h2>Bob Loblaw</h2>
+            </div>
+
+            <div class="col-4 text-right">
+              <i class="fas fa-2x fa-phone pr-1"></i>
+              <i class="fas fa-2x fa-comment-dots"></i>
+            </div>
+          </div>
+
+          <div class="row align-items-center mb-3">
+            <div class="col-5 align-items-center">
+              <p class="font-weight-light no-margin text-center">
+                11:59PM - 10/31/2020
+              </p>
+
+              <p class="font-weight-light no-margin text-center">
+                Eating lunch
+              </p>
+            </div>
+
+            <div class="col-7">
+              <div class="input-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Search"
+                  aria-label="Username"
+                  aria-describedby="basic-addon1"
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3 shadow">
+            <div class="card-body pr-5">
+              <div class="row ml-2">
+                <div class="col-12 no-padding">
+                  <div class="card shadow mb-2">
+                    <div class="card-body">
+                      <div class="row align-items-center">
+                        <div class="col-2 text-center">
+                          <img
+                            class="mx-auto"
+                            src="{% static 'img/avatar.png' %}"
+                            alt=""
+                            width="25"
+                            height="25"
+                          />
+                          <p class="no-padding">Jane</p>
+                        </div>
+
+                        <div class="col-10">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </div>
+
+                        <div class="col-12 text-right">
+                          <p class="no-margin font-italic">
+                            Received 10:00 AM
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 no-padding">
+                  <div class="card shadow mb-2">
+                    <div class="card-body">
+                      <div class="row align-items-center">
+                        <div class="col-10">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </div>
+
+                        <div class="col-2 text-center">
+                          <img
+                            class="mx-auto"
+                            src="{% static 'img/avatar.png' %}"
+                            alt=""
+                            width="25"
+                            height="25"
+                          />
+                          <p class="no-padding">John</p>
+                        </div>
+
+                        <div class="col-12 text-left">
+                          <p class="no-margin font-italic">
+                            Received 10:00 AM
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-2">
+          <div class="card">
+            <div class="card-header">
+              Name | Last Seen
+            </div>
+
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item text-center">
+                <button type="button" class="btn btn-sm btn-primary">Jane Doe</button>
+                <br>
+                <i class="fas fa-user pr-1"></i>
+                1 min
+              </li>
+              <li class="list-group-item text-center">
+                <button type="button" class="btn btn-sm btn-primary">John Doe</button>
+                <br>
+                <i class="far fa-user pr-1"></i>
+                30 min
+              </li>
+              <li class="list-group-item text-center">
+                <button type="button" class="btn btn-sm btn-primary">Deer Doe</button>
+                <br>
+                <i class="far fa-user pr-1"></i>
+                2 hrs
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+{% endblock %}
