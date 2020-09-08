@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block title %}Home Page{% endblock %}
+
+{% block content %}
+
+{% if show_navbar %}
+{% include "gui/navbar.html" %}
+{% endif %}
+
+<main role="main" class="container mt-2">
+  <div class="card shadow mb-3">
+    <div class="card-body">
+      <div class="row">
+        <div class="col text-center">
+          <img
+            class="mx-auto"
+            src="{% static 'img/calendar-static.png' %}"
+            alt=""
+            width="368"
+            height="658"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+{% endblock %}

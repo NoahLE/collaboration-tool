@@ -9,6 +9,7 @@ urlpatterns = [
     path('alerts/', views.alerts, name='alerts'),
     path('chat/single/', views.chat_single, name='chat-single'),
     path('chat/multiple/', views.chat_multiple, name='chat-multiple'),
+    path('calendar', views.calendar, name='calendar'),
     path('wiki-main/', views.wiki_main, name='wiki-main'),
     path('wiki-article/', views.wiki_article, name='wiki-article'),
     path('profile/public/', views.profile_public, name='profile-public'),

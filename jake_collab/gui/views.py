@@ -83,3 +83,9 @@ def chat_multiple(request):
         'show_navbar': True
     }
     return render(request, 'gui/chat-multiple.html', context)
+
+def calendar(request):
+    context = {
+        'show_navbar': True
+    }
+    return render(request, 'gui/calendar.html', context)
