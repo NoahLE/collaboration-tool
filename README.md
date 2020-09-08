@@ -6,9 +6,10 @@
 
 ## Installation
 
-1. Set up virtualenv
-2. Install requirements.txt
-3. Run project
+1. Set up virtualenv (this can be done when creating a new project if you're using Pycharm)
+2. Install project libraries with `pip3 install -r requirements.txt`
+3. Run migrations with `python manage.py migrate`
+4. Run project with `python manage.py runserver`
 
 ## Pages
 
