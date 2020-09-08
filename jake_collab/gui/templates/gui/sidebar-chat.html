@@ -12,36 +12,43 @@
 
     <ul class="list-group list-group-flush">
       <li class="list-group-item">
-        <img
-          class="mx-auto"
-          src="{% static 'img/placeholder.png' %}"
-          alt=""
-          width="25"
-          height="25"
-        />
-        Chat #1
+        <a href="{% url 'chat-multiple' %}">
+          <img
+            class="mx-auto"
+            src="{% static 'img/placeholder.png' %}"
+            alt=""
+            width="25"
+            height="25"
+          />
+          Chat #1
+        </a>
       </li>
 
       <li class="list-group-item">
-        <img
-          class="mx-auto"
-          src="{% static 'img/placeholder.png' %}"
-          alt=""
-          width="25"
-          height="25"
-        />
-        Chat #2
+        <a href="{% url 'chat-multiple' %}">
+          <img
+            class="mx-auto"
+            src="{% static 'img/placeholder.png' %}"
+            alt=""
+            width="25"
+            height="25"
+          />
+          Chat #2
+        </a>
       </li>
 
+
       <li class="list-group-item">
-        <img
-          class="mx-auto"
-          src="{% static 'img/placeholder.png' %}"
-          alt=""
-          width="25"
-          height="25"
-        />
-        Chat #3
+        <a href="{% url 'chat-multiple' %}">
+          <img
+            class="mx-auto"
+            src="{% static 'img/placeholder.png' %}"
+            alt=""
+            width="25"
+            height="25"
+          />
+          Chat #3
+        </a>
       </li>
     </ul>
   </div>
@@ -53,45 +60,51 @@
 
     <ul class="list-group list-group-flush">
       <li class="list-group-item">
-        <img
-          class="mx-auto"
-          src="{% static 'img/placeholder.png' %}"
-          alt=""
-          width="25"
-          height="25"
-        />
-        Jane Doe
-        <p class="font-italic chat-preview">
-          Hello, this is...
-        </p>
+        <a href="{% url 'chat-single' %}">
+          <img
+            class="mx-auto"
+            src="{% static 'img/placeholder.png' %}"
+            alt=""
+            width="25"
+            height="25"
+          />
+          Jane Doe
+          <p class="font-italic chat-preview">
+            Hello, this is...
+          </p>
+        </a>
       </li>
 
       <li class="list-group-item">
-        <img
-          class="mx-auto"
-          src="{% static 'img/placeholder.png' %}"
-          alt=""
-          width="25"
-          height="25"
-        />
-        John Doe
-        <p class="font-italic chat-preview">
-          Hello, this is...
-        </p>
+        <a href="{% url 'chat-single' %}">
+          <img
+            class="mx-auto"
+            src="{% static 'img/placeholder.png' %}"
+            alt=""
+            width="25"
+            height="25"
+          />
+          John Doe
+          <p class="font-italic chat-preview">
+            Hello, this is...
+          </p>
+        </a>
       </li>
 
       <li class="list-group-item">
-        <img
-          class="mx-auto"
-          src="{% static 'img/placeholder.png' %}"
-          alt=""
-          width="25"
-          height="25"
-        />
-        Deers Doe
-        <p class="font-italic chat-preview">
-          Hello, this is...
-        </p>
+        <a href="{% url 'chat-single' %}">
+          <img
+            class="mx-auto"
+            src="{% static 'img/placeholder.png' %}"
+            alt=""
+            width="25"
+            height="25"
+          />
+          Deers Doe
+          <p class="font-italic chat-preview">
+            Hello, this is...
+          </p>
+        </a>
       </li>
     </ul>
   </div>
