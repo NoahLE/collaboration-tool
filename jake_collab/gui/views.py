@@ -69,3 +69,17 @@ def kanban_edit(request):
         'show_navbar': True
     }
     return render(request, 'gui/kanban-edit.html', context)
+
+
+def chat_single(request):
+    context = {
+        'show_navbar': True
+    }
+    return render(request, 'gui/chat-single.html', context)
+
+
+def chat_multiple(request):
+    context = {
+        'show_navbar': True
+    }
+    return render(request, 'gui/chat-single.html', context)

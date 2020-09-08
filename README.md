@@ -23,6 +23,6 @@
 | Kanban - Editing item  | /gui/kanban/edit     | Kanban-card-selected / Kanban-task-submitted | Editing item                       |
 | Profile - Public       | /gui/profile/public  | Profile - public                             | Public profile page                |
 | Profile - Private      | /gui/profile/private | Profile - private                            | Private profile page               |
-| Chat - 1-on-1          | /gui/chat            | Chat-open-1-on-1                             | Private individual chats           |
-| Chat - Group           | /gui/chat/group      | Chat-open-rooms                              | Group chat rooms                   |
+| Chat - 1-on-1          | /gui/chat/single     | Chat-open-1-on-1                             | Private individual chats           |
+| Chat - Group           | /gui/chat/multiple   | Chat-open-rooms                              | Group chat rooms                   |
 | Event calendar         | /gui/calendar        | Event calendar                               | Calendar                           |
