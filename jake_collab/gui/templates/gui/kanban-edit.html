@@ -98,8 +98,13 @@
                 </div>
 
                 <div class="col-12 text-center">
-                  <button type="button" class="btn btn-success btn-sm">Save</button>
-                  <button type="button" class="btn btn-warning btn-sm">Cancel</button>
+                  <a href="{% url 'kanban-selected' %}">
+                    <button type="button" class="btn btn-success btn-sm">Save</button>
+                  </a>
+
+                  <a href="{% url 'kanban-selected' %}">
+                    <button type="button" class="btn btn-warning btn-sm">Cancel</button>
+                  </a>
                 </div>
               </div>
             </div>
