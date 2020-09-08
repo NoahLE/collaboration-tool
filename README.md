@@ -3,6 +3,17 @@
 - [Project Collaboration Mockup](#project-collaboration-mockup)
   - [Installation](#installation)
   - [Pages](#pages)
+  - [Sample Images](#sample-images)
+    - [Login](#login)
+    - [Dashboard](#dashboard)
+    - [Notifications](#notifications)
+    - [Chat - Single Person](#chat---single-person)
+    - [Chatroom](#chatroom)
+    - [Kanban](#kanban)
+    - [Editing Kanban Card](#editing-kanban-card)
+    - [All Kanban Issues](#all-kanban-issues)
+    - [Wiki](#wiki)
+    - [Calendar](#calendar)
 
 ## Installation
 
@@ -30,4 +41,32 @@
 
 ## Sample Images
 
+### Login
 ![login](/docs/login.png)
+
+### Dashboard
+![dashboard](/docs/dashboard.png)
+
+### Notifications
+![notifications](/docs/notifications.png)
+
+### Chat - Single Person
+![chat-single](/docs/chat-single.png)
+
+### Chatroom
+![chat-multiple](/docs/chat-multiple.png)
+
+### Kanban
+![kanban](/docs/kanban.png)
+
+### Editing Kanban Card
+![kanban-edit](/docs/kanban-edit.png)
+
+### All Kanban Issues
+![kanban-issues](/docs/kanban-issues.png)
+
+### Wiki
+![wiki](/docs/wiki.png)
+
+### Calendar
+![calendar](/docs/calendar.png)
