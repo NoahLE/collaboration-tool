@@ -35,10 +35,26 @@
       </div>
 
       <div class="row justify-content-center">
-        <button type="button" class="btn btn-primary mr-3 mt-2">Chat with Me</button>
-        <button type="button" class="btn btn-primary mr-3 mt-2">Schedule a Meeting</button>
-        <button type="button" class="btn btn-primary mr-3 mt-2">Project I'm Overseeing</button>
-        <button type="button" class="btn btn-primary mt-2">Assigned Tasks (To Me)</button>
+        <a class="color-black"
+           href="{% url 'profile-private' %}"
+        >
+          <button type="button" class="btn btn-primary mr-3 mt-2">Chat with Me</button>
+        </a>
+        <a class="color-black"
+           href="{% url 'profile-private' %}"
+        >
+          <button type="button" class="btn btn-primary mr-3 mt-2">Schedule a Meeting</button>
+        </a>
+        <a class="color-black"
+           href="{% url 'profile-private' %}"
+        >
+          <button type="button" class="btn btn-primary mr-3 mt-2">Project I'm Overseeing</button>
+        </a>
+        <a class="color-black"
+           href="{% url 'profile-private' %}"
+        >
+          <button type="button" class="btn btn-primary mt-2">Assigned Tasks (To Me)</button>
+        </a>
       </div>
     </div>
   </div>

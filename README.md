@@ -22,6 +22,10 @@
 3. Run migrations with `python manage.py migrate`
 4. Run project with `python manage.py runserver`
 
+## Running the project
+
+All you need to do is run `python manage.py runserver` 
+
 ## Pages
 
 | Page                   | URL                  | Balsamiq Name                                | Description                        |
